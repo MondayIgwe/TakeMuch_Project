@@ -1,15 +1,11 @@
 package testBase;
 
 import io.github.bonigarcia.wdm.WebDriverManagerException;
-import io.restassured.RestAssured;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.Before;
 import cucumber.api.java.After;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import pages.SeleniumDriver;
 
 public class Hooks {
     static WebDriver driver = null;
@@ -26,14 +22,13 @@ public class Hooks {
     public static void setWeb() throws WebDriverManagerException {
         System.out.println("The BEFORE HOOKS will runs After Background and Scenarios--WEB");
         WebDriverManager.chromedriver().setup();
-        SeleniumDriver.launchBrowser(browser,baseUrl);
+        new WebDriver_Factory(driver).launchBrowser(browser,baseUrl);
     }
-
-
 
     WebDriver getDriver(){
         return driver;
     }
+
     @After
     public void tearDown() throws WebDriverException {
         try {
@@ -48,4 +43,5 @@ public class Hooks {
             System.out.println("closing browser");
         }
     }
+
 }

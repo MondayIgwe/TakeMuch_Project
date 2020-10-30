@@ -8,11 +8,12 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = "stepDefinitions",
+        glue = "web.stepDefinitions",
         dryRun = true,
         strict = false,
         monochrome = true,
-        tags = {"~@web","@web2","@rest","@debug"},
+        tags = "@debug",
+        //tags = {"~@web","@web2","@rest","@debug"},
         plugin = {"pretty","html:target/Cucumber"},
         snippets = SnippetType.UNDERSCORE
         )

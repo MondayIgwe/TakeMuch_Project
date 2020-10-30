@@ -1,2 +1,4 @@
+pagesFactory\LoginPage.class
+testBase\WebDriver_Factory.class
+commonLibs\HelperUtilities.class
 testBase\Hooks.class
-pages\SeleniumDriver.class

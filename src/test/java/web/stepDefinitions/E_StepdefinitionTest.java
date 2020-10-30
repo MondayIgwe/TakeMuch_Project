@@ -1,8 +1,8 @@
-package stepDefinitions;
+package web.stepDefinitions;
 
 import cucumber.api.java.en.*;
 
-public class E_Stepdefinition {
+public class E_StepdefinitionTest {
     @Given("^a book \"(.*?)\" with the following body$")
     public void a_book_with_the_following_body(String bookName, String cookbookText) {
         System.out.println(bookName +""+ cookbookText);

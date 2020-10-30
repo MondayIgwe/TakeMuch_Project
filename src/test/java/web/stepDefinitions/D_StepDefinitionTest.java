@@ -1,9 +1,9 @@
-package stepDefinitions;
+package web.stepDefinitions;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
-public class D_StepDefinition {
+public class D_StepDefinitionTest {
 
     @Then("^i( do not see| see) following dollars in my account$")
     public void i_see_following_dollars_in_my_account(String seeOrDoNotSee){

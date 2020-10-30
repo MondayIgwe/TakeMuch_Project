@@ -1,4 +1,4 @@
-package stepDefinitions;
+package web.stepDefinitions;
 import cucumber.api.Format;
 import cucumber.api.java.en.Given;
 

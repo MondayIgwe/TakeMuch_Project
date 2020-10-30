@@ -1,7 +1,7 @@
-stepDefinitions\D_StepDefinition.class
-stepDefinitions\Existing_User.class
-stepDefinitions\C_Stepdefinition.class
+stepDefinitions\Existing_UserTest.class
+stepDefinitions\C_StepdefinitionTest.class
+stepDefinitions\D_StepDefinitionTest.class
 stepDefinitions\MyStepdefs.class
+stepDefinitions\E_StepdefinitionTest.class
 runner\testRunner.class
 stepDefinitions\F_StepDef.class
-stepDefinitions\E_Stepdefinition.class

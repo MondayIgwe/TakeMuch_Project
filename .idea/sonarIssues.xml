@@ -13,11 +13,6 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/pom.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/pages/SeleniumCriver.java">
           <value>
             <set />
@@ -28,7 +23,12 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/testBase/Hooks.java">
+        <entry key="$PROJECT_DIR$/src/main/java/testBase/SeleniumDriver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/testBase/SeleniumDriver_Factory.java">
           <value>
             <set />
           </value>
@@ -38,12 +38,12 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/test/java/runner/testRunner.java">
+        <entry key="$PROJECT_DIR$/src/test/java/stepDefinitions/Existing_User.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/test/java/stepDefinitions/Existing_User.java">
+        <entry key="$PROJECT_DIR$/src/test/java/stepDefinitions/Existing_UserTest.java">
           <value>
             <set />
           </value>
@@ -84,46 +84,6 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/stepDefs/testRunner.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/test/resources/cucumber.properties">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/test/resources/features/a.feature">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/test/resources/features/b.feature">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/test/resources/features/c.feature">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/test/resources/features/d.feature">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/test/resources/features/e.feature">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/test/resources/features/f.feature">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/test/resources/junit-platform.properties">
           <value>
             <set />
           </value>

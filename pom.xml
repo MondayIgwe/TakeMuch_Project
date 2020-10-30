@@ -12,7 +12,8 @@
         <cucumber.version>1.2.5</cucumber.version>
         <selenium.version>3.141.59</selenium.version>
         <maven.compiler.version></maven.compiler.version>
-
+        <junit.version>4.13.1</junit.version>
+        <appium.version>7.2.0</appium.version>
     </properties>
 
     <build>
@@ -51,7 +52,7 @@
                             <argLine>-Dfile.encoding=UTF-8</argLine>
                             <useFile>false</useFile>
                             <includes>
-                                <include>**/*StepDefinition.class</include>
+                                <include>**/*testRunner.class</include>
                             </includes>
                             <testFailureIgnore>true</testFailureIgnore>
                         </configuration>
@@ -125,7 +126,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
 
@@ -175,6 +176,18 @@
             <artifactId>rest-assured</artifactId>
             <version>4.3.0</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <!--Appium-->
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>${appium.version}</version>
         </dependency>
     </dependencies>
 </project>

@@ -1,20 +1,28 @@
-package stepDefinitions;
+package web.stepDefinitions;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.But;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.WebDriver;
+import pagesFactory.LoginPage;
 
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
 
 public class MyStepdefs {
+    LoginPage loginPage;
+    WebDriver driver;
+
     @Given("^user is on the application \"(.*?)\" home page$")
     public void user_is_on_the_application_home_page(String url) throws Exception {
+        loginPage = new LoginPage(driver);
         System.out.println(url);
+        loginPage.caller();
+
+
     }
 
     @When("^user enters \"(.*?)\" in the username field$")

@@ -1,16 +1,20 @@
-package pages;
+package testBase;
 
+import cucumber.api.java.After;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class SeleniumDriver {
+public class WebDriver_Factory {
 
-    static WebDriver driver;
+    public WebDriver driver;
     WebDriverWait webDriverWait;
     static String restAPI = "https://reqres.in/api/";
+    public WebDriver_Factory(WebDriver driver){
+        this.driver=driver;
+    }
 
     /**
      * * This function is to invoke Selenium Webdriver
@@ -18,20 +22,21 @@ public class SeleniumDriver {
      * * @throws MalformedURLException
      * * @throws InterruptedException
      */
-    public static void launchBrowser(final String browserID, String baseUrlID) throws WebDriverException {
+
+    public void launchBrowser(final String browserID, String baseUrlID) throws WebDriverException {
         if (browserID.equalsIgnoreCase("chrome")) {
-            openURL(baseUrlID);
+            driver = new ChromeDriver();
+            driver.get(baseUrlID);
+            driver.manage().window().maximize();
         } else if (browserID.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
-            openURL(baseUrlID);
         } else {
             System.out.println("Invalid Browser:'");
         }
     }
 
-    static void openURL(String baseUrlID) throws WebDriverException {
-        driver = new ChromeDriver();
-        driver.get(baseUrlID);
-        driver.manage().window().maximize();
+    public WebDriver getDriver(){
+        return driver;
     }
+
 }

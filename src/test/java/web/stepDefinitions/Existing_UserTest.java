@@ -1,4 +1,4 @@
-package stepDefinitions;
+package web.stepDefinitions;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.en.*;
@@ -8,7 +8,7 @@ import java.util.List;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 
-public class Existing_User {
+public class Existing_UserTest {
     @Given("^user is on the application landing page$")
     public void user_is_on_the_application_landing_page() throws Throwable {
 
