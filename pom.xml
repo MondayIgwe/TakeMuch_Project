@@ -14,9 +14,19 @@
         <maven.compiler.version></maven.compiler.version>
         <junit.version>4.13.1</junit.version>
         <appium.version>7.2.0</appium.version>
-    </properties>
+        <http.version>4.5.13</http.version>
+        <karate.version>0.9.6</karate.version>
 
+    </properties>
     <build>
+        <testResources>
+            <testResource>
+                <directory>src/test/java</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </testResource>
+        </testResources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -50,9 +60,11 @@
                             <argLine>-Xmx1024m</argLine>
                             <argLine>-XX:MaxPermSize=256m</argLine>
                             <argLine>-Dfile.encoding=UTF-8</argLine>
+                            <argLine>-DKarate.evn=qa</argLine>
                             <useFile>false</useFile>
                             <includes>
-                                <include>**/*testRunner.class</include>
+                                <include>**/*webRunner.java</include>
+                                <include>**/*karate_Runner</include>
                             </includes>
                             <testFailureIgnore>true</testFailureIgnore>
                         </configuration>
@@ -183,11 +195,67 @@
             <version>${junit.version}</version>
             <scope>compile</scope>
         </dependency>
+        <!-- HTTPClient -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>${http.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.4.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20200518</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.3.0</version>
+            <scope>test</scope>
+        </dependency>
+
         <!--Appium-->
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>${appium.version}</version>
         </dependency>
+
+        <!--Karate Api-->
+        <dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-apache</artifactId>
+            <version>${karate.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-junit4</artifactId>
+            <version>${karate.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-junit5</artifactId>
+            <version>${karate.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-core</artifactId>
+            <version>${karate.version}</version>
+        </dependency>
+        <!--Cucumber Reporting-->
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>5.3.1</version>
+        </dependency>
+
+
     </dependencies>
 </project>

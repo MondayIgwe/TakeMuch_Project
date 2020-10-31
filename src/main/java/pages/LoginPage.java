@@ -1,12 +1,10 @@
-package pagesFactory;
+package pages;
 import static org.junit.Assert.assertEquals;
 
 import commonLibs.HelperUtilities;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import testBase.WebDriver_Factory;
 
 public class LoginPage extends WebDriver_Factory {

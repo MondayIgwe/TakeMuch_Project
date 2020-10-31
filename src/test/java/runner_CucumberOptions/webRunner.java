@@ -1,4 +1,4 @@
-package runner;
+package runner_CucumberOptions;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "web.stepDefinitions",
-        dryRun = true,
+        dryRun = false,
         strict = false,
         monochrome = true,
         tags = "@debug",
@@ -18,6 +18,6 @@ import org.junit.runner.RunWith;
         snippets = SnippetType.UNDERSCORE
         )
 
-public class testRunner {
+public class webRunner {
 
 }

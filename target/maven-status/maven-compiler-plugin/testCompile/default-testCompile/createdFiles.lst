@@ -1,7 +1,7 @@
-stepDefinitions\Existing_UserTest.class
-stepDefinitions\C_StepdefinitionTest.class
-stepDefinitions\D_StepDefinitionTest.class
-stepDefinitions\MyStepdefs.class
-stepDefinitions\E_StepdefinitionTest.class
-runner\testRunner.class
-stepDefinitions\F_StepDef.class
+web\stepDefinitions\MyStepdefs.class
+rest_Automation\SteDefinitions\RestServices.class
+web\stepDefinitions\E_StepdefinitionTest.class
+web\stepDefinitions\F_StepDef.class
+web\stepDefinitions\Existing_UserTest.class
+web\stepDefinitions\C_StepdefinitionTest.class
+web\stepDefinitions\D_StepDefinitionTest.class

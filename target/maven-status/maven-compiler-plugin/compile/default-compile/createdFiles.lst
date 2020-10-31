@@ -1,4 +1,7 @@
-pagesFactory\LoginPage.class
+environment\Properties_utiliy.class
+pages\LoginPage.class
+appium\AppiumFactory.class
 testBase\WebDriver_Factory.class
 commonLibs\HelperUtilities.class
 testBase\Hooks.class
+rest\RestFactory.class

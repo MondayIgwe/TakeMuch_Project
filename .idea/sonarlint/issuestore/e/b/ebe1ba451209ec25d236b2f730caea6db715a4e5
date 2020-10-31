@@ -1,108 +1,68 @@
 
-Z	java:S106;"9Replace this use of System.out or System.err by a logger.(—ÿ·Áùÿÿÿÿ8–øºØÖ.
-Y
-java:S1128"7Remove this unused import 'io.restassured.RestAssured'.(ºÉµ±ùÿÿÿÿ8É±¾İÖ.
-š
-java:S1130"}Remove the declaration of thrown exception 'io.github.bonigarcia.wdm.WebDriverManagerException' which is a runtime exception.(±ñ®Ñ8ğ™ÔØÖ.
-U	java:S106?"9Replace this use of System.out or System.err by a logger.(€ÇÜƒ8˜Ä‘àÖ.
-N
-java:S1108#"1Move this "else" keyword to a new dedicated line.(ºå›Ï8µÖØØÖ.
-j
-java:S1132#"MMove the "firefox" string literal on the left side of this string comparison.(ºå›Ï8µÖØØÖ.
-f
-java:S1120!"DMake this line start after 4 spaces to indent the code consistently.(Äëœşÿÿÿÿ8€ÖªØÖ.
-Z	java:S106'"9Replace this use of System.out or System.err by a logger.(Ä„’ïøÿÿÿÿ8®ÙØÖ.
-^
-java:S1106#"AMove this left curly brace to the beginning of next line of code.(ºå›Ï8µÖØØÖ.
-a
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(—Í¨¿8üİÄØÖ.
-f
-java:S1120'"DMake this line start after 6 spaces to indent the code consistently.(Ä„’ïøÿÿÿÿ8®ÙØÖ.
-R
-java:S2039"0Explicitly declare the visibility for "baseUrl".(°ğÂßÿÿÿÿÿ8½Óı×Ö.
-^
-java:S1106"AMove this left curly brace to the beginning of next line of code.(¬¥¤8šû¦İÖ.
-e
-java:S3052"HRemove this initialization to "null", the compiler will do that for you.(­¦¥®8ÛíßÖ.
-R
-java:S2039"0Explicitly declare the visibility for "restAPI".(î’…ÿÿÿÿÿ8ê¿İÖ.
-a
-java:S11207"DMake this line start after 6 spaces to indent the code consistently.(»´×”8±ÅØÖ.
-c
-java:S2142<"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ïÄŞØÖ.
-c
-java:S1106+"AMove this left curly brace to the beginning of next line of code.(ª¬¢Úıÿÿÿÿ8ÍüØØÖ.
-O
-java:S1108<"2Move this "catch" keyword to a new dedicated line.(ä ¹€8ïÄŞØÖ.
-a
-java:S1120""DMake this line start after 6 spaces to indent the code consistently.(šŒÃµ8òÿ‰àÖ.
-a
-java:S1120,"DMake this line start after 4 spaces to indent the code consistently.(Î°¸ó8İÉŠàÖ.
-c
-java:S11061"AMove this left curly brace to the beginning of next line of code.(ÿÚ¼øÿÿÿÿ8“ıÈßÖ.
-n
-java:S1132!"LMove the "chrome" string literal on the left side of this string comparison.(Äëœşÿÿÿÿ8€ÖªØÖ.
-^
-java:S1106<"AMove this left curly brace to the beginning of next line of code.(ä ¹€8ïÄŞØÖ.
-f
-java:S1120="DMake this line start after 6 spaces to indent the code consistently.(€ÉÔ…ıÿÿÿÿ8ïÄŞØÖ.
 B
-java:S1166:"%Either log or rethrow this exception.( €â¦8É¢¹ØÖ.
-^
-java:S11065"AMove this left curly brace to the beginning of next line of code.(“”­Ê8Øı¯ßÖ.
-f
-java:S1120;"DMake this line start after 6 spaces to indent the code consistently.(—ÿ·Áùÿÿÿÿ8–øºØÖ.
-f
-java:S11206"DMake this line start after 4 spaces to indent the code consistently.(¡»¢üùÿÿÿÿ8É¢¹ØÖ.
-U	java:S1067"9Replace this use of System.out or System.err by a logger.(»´×”8±ÅØÖ.
-^
-java:S1106&"AMove this left curly brace to the beginning of next line of code.(å¥‡8€ÖªØÖ.
-^
-java:S1106 "AMove this left curly brace to the beginning of next line of code.(ã¯›Ô8Øı¯ßÖ.
-T
-java:S1108>"2Move this "catch" keyword to a new dedicated line.(å“Úéùÿÿÿÿ8˜Ä‘àÖ.
-“
-java:S1130+"qRemove the declaration of thrown exception 'org.openqa.selenium.WebDriverException' which is a runtime exception.(ª¬¢Úıÿÿÿÿ8†”ÖØÖ.
+java:S1166+"%Either log or rethrow this exception.( €â¦8öÄ²À×.
 a
-java:S1120?"DMake this line start after 6 spaces to indent the code consistently.(€ÇÜƒ8˜Ä‘àÖ.
-W
-java:S1106"AMove this left curly brace to the beginning of next line of code.(Ê¤î
-M
-java:S2039"0Explicitly declare the visibility for "browser".(Äğ¼‹8¨ÿû×Ö.
-a
-java:S1120"DMake this line start after 2 spaces to indent the code consistently.(­¦¥®8§«ú×Ö.
+java:S1120#"DMake this line start after 4 spaces to indent the code consistently.(½õ¤¬8öÄ²À×.
+R
+java:S2039"0Explicitly declare the visibility for "baseUrl".(°ğÂßÿÿÿÿÿ8‹­­×.
 O
-java:S1108:"2Move this "catch" keyword to a new dedicated line.( €â¦8É¢¹ØÖ.
+java:S1108+"2Move this "catch" keyword to a new dedicated line.( €â¦8‹­­×.
 ^
-java:S1106:"AMove this left curly brace to the beginning of next line of code.( €â¦8Äë·ØÖ.
-N
-java:S1108&"1Move this "else" keyword to a new dedicated line.(å¥‡8ÍüØØÖ.
+java:S1106"AMove this left curly brace to the beginning of next line of code.(±ñ®Ñ8‹­­×.
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(—ÿ·Áùÿÿÿÿ8öÄ²À×.
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(»´×”8öÄ²À×.
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(šš÷ê8‹­­×.
+^
+java:S1106+"AMove this left curly brace to the beginning of next line of code.( €â¦8‹­­×.
 a
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(¶éÈØ8ªŞ—ŞÖ.
-q	java:S1098"UAssign this magic number 2000 to a well-named constant, and use the constant instead.(¯ú™ú8ŞØÖ.
-
-java:S11305"qRemove the declaration of thrown exception 'org.openqa.selenium.WebDriverException' which is a runtime exception.(“”­Ê8è£ùßÖ.
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(—Í¨¿8‹­­×.
+š
+java:S1130"}Remove the declaration of thrown exception 'io.github.bonigarcia.wdm.WebDriverManagerException' which is a runtime exception.(±ñ®Ñ8‹­­×.
+U	java:S106."9Replace this use of System.out or System.err by a logger.(€ÇÜƒ8öÄ²À×.
 F
-java:S1696>"$Avoid catching NullPointerException.(å“Úéùÿÿÿÿ8˜Ä‘àÖ.
+java:S1696-"$Avoid catching NullPointerException.(å“Úéùÿÿÿÿ8öÄ²À×.
 ^
-java:S1106"AMove this left curly brace to the beginning of next line of code.(±ñ®Ñ8÷ÖƒØÖ.
-a
-java:S1120$"DMake this line start after 6 spaces to indent the code consistently.(Âéã±8µÖØØÖ.
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¬¥¤8‹­­×.
+e
+java:S3052"HRemove this initialization to "null", the compiler will do that for you.(­¦¥®8‹­­×.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¶éÈØ8‹­­×.
+^
+java:S1106
+"AMove this left curly brace to the beginning of next line of code.(Ê¤î8‹­­×.
 c
-java:S1106!"AMove this left curly brace to the beginning of next line of code.(Äëœşÿÿÿÿ8€ÖªØÖ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¶éÈØ8ªŞ—ŞÖ.
+java:S1106""AMove this left curly brace to the beginning of next line of code.(ÿÚ¼øÿÿÿÿ8öÄ²À×.
+f
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ƒİî÷ıÿÿÿÿ8é ³À×.
+c
+java:S1106-"AMove this left curly brace to the beginning of next line of code.(å“Úéùÿÿÿÿ8öÄ²À×.
+f
+java:S1120("DMake this line start after 4 spaces to indent the code consistently.(¡»¢üùÿÿÿÿ8öÄ²À×.
+M
+java:S2039"0Explicitly declare the visibility for "browser".(Äğ¼‹8‹­­×.
+f
+java:S1120,"DMake this line start after 6 spaces to indent the code consistently.(—ÿ·Áùÿÿÿÿ8öÄ²À×.
+^
+java:S1106'"AMove this left curly brace to the beginning of next line of code.(“”­Ê8öÄ²À×.
 a
-java:S11202"DMake this line start after 4 spaces to indent the code consistently.(½õ¤¬8µûßßÖ.
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(­¦¥®8‹­­×.
 
-java:S1130 "qRemove the declaration of thrown exception 'org.openqa.selenium.WebDriverException' which is a runtime exception.(ã¯›Ô8©–ÕØÖ.
+java:S1130'"qRemove the declaration of thrown exception 'org.openqa.selenium.WebDriverException' which is a runtime exception.(“”­Ê8öÄ²À×.
+a
+java:S1120)"DMake this line start after 6 spaces to indent the code consistently.(»´×”8öÄ²À×.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒİî÷ıÿÿÿÿ8é ³À×.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(—Í¨¿8‹­­×.
+a
+java:S1120."DMake this line start after 6 spaces to indent the code consistently.(€ÇÜƒ8öÄ²À×.
+T
+java:S1108-"2Move this "catch" keyword to a new dedicated line.(å“Úéùÿÿÿÿ8öÄ²À×.
+X	java:S125"<This block of commented-out lines of code should be removed.(ıñÙÄ8‹­­×.
 c
-java:S1106>"AMove this left curly brace to the beginning of next line of code.(å“Úéùÿÿÿÿ8˜Ä‘àÖ.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùı¾£
+java:S1106("AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8öÄ²À×.
 L
-java:S2039"/Explicitly declare the visibility for "driver".(­¦¥®8§«ú×Ö.
+java:S2039"/Explicitly declare the visibility for "driver".(­¦¥®8‹­­×.
 G
-java:S1166>"%Either log or rethrow this exception.(å“Úéùÿÿÿÿ8˜Ä‘àÖ.
-c
-java:S11066"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8É¢¹ØÖ.
-X	java:S125"<This block of commented-out lines of code should be removed.(ıñÙÄ8‹‡ºŞÖ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(—Í¨¿8íûÏØÖ.
+java:S1166-"%Either log or rethrow this exception.(å“Úéùÿÿÿÿ8öÄ²À×.
+a
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(¶éÈØ8‹­­×.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùı¾£8‹­­×.
