@@ -1,0 +1,14 @@
+
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¿«¦’þÿÿÿÿ
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¿«¦’þÿÿÿÿ8àÛ·…Ø.
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(‚‘øÇ8÷Æ±…Ø.
+a
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(‚‘øÇ8÷Æ±…Ø.
+M
+java:S1481."+Remove this unused "result" local variable.(ã¨â¨ùÿÿÿÿ8÷Æ±…Ø.
+a
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ûæÕÐ8÷Æ±…Ø.
+\
+java:S1854.":Remove this useless assignment to local variable "result".(ã¨â¨ùÿÿÿÿ8÷Æ±…Ø.

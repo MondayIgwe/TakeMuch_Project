@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="CSSStyle.css"?>
+<!-- User Defined XML tags-->
+<apartmentBuilding>
+    <apartments>
+        <rooms type="bedrooms">
+            <furnitures>
+                <belongings type="wardrope" color="blue" />
+                <belongings type="bed" color="green" />
+                <balcony> lineDryer="dryer" color="white"</balcony>
+                <balcony lineDryer="dryer" color="white"/>
+                <tv>
+                    Dear Viewer,
+                    Watch with care!!
+                </tv>
+            </furnitures>
+        </rooms>
+    </apartments>
+</apartmentBuilding>

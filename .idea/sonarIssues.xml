@@ -13,6 +13,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/.m2/settings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/karate-config.js">
           <value>
             <set />
@@ -24,6 +34,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Groovy_Scripting/Test_GroovyScripting.groovy">
           <value>
             <set />
           </value>
@@ -53,6 +68,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/environment/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/environment/properties_utiliy.java">
           <value>
             <set />
@@ -78,6 +98,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/rest/Rest_Assured_NO_CUCUMBER.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/rest/Rest_Interface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/testBase/Hooks.java">
           <value>
             <set />
@@ -94,6 +124,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/utility_Properties/flatFile.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/utility_Properties/flatFile1.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/utility_Properties/xmlFile.xml">
           <value>
             <set />
           </value>
@@ -224,6 +269,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/resources/features/rest_Features/b.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../restDemo/src/main/java/demos/Post_RequestSpec.java">
           <value>
             <set />
           </value>

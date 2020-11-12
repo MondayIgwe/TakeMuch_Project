@@ -1,0 +1,102 @@
+
+_
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.( ¤­†8Ş„šÜ×.
+_
+java:S1120"DMake this line start after 8 spaces to indent the code consistently.(Âì“¡8êØèÜ×.
+_
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(¯õ8Ğ†İÜ×.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(š¾ø8ú‡±Ü×.
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ã™Ì²8€Ã•Ü×.
+a
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8â¡¸İ×.
+d
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(–Şšııÿÿÿÿ8û×¸İ×.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(©¬èùÿÿÿÿ8½ïÒİ×.
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Úîø›8â¡¸İ×.
+a
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8²ßæÜ×.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Š¤›¢8Æÿİ×.
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Úîø›8Ğ†İÜ×.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ºı”ü8•ôäİ×.
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(¯õ8ıã£Ü×.
+_
+java:S1120"DMake this line start after 8 spaces to indent the code consistently.(Š¤›¢8Ú“İ×.
+a
+java:S1106"AMove this left curly brace to the beginning of next line of code.(üÛÇ¨øÿÿÿÿ8Ú“İ×.
+“
+java:S1160"xRefactor this method to throw at most one checked exception instead of: java.net.URISyntaxException, java.io.IOException(Ú ƒ¿8˜àûÛ×.
+J
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8â¡¸İ×.
+J
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Ğ†İÜ×.
+O
+java:S1108"4Move this "finally" keyword to a new dedicated line.(Úîø›8Ğ†İÜ×.
+a
+java:S1106"AMove this left curly brace to the beginning of next line of code.(—ã¯—øÿÿÿÿ8ú‡±Ü×.
+_
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.( ¤­†8‡İ™Ü×.
+_
+java:S1128"DRemove this unused import 'org.apache.http.client.utils.URIBuilder'.(¬‹èÄ8ƒóÛ×.
+H	java:S108")Either remove or fill this block of code.(¡»¢üùÿÿÿÿ8²ßæÜ×.
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.( ¤­†8ªŒ„İ×.
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.( ¤­†8Üèƒİ×.
+d
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(”Ò÷»ÿÿÿÿÿ8Ğ†İÜ×.
+_
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(ºı”ü8•ôäİ×.
+N
+java:S2039"3Explicitly declare the visibility for "httpclient".(ù´ˆê8¾¿—Ü×.
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Ú ƒ¿8Ê€Ğ×.
+a
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ÉÁÀ™üÿÿÿÿ8½Í¿Ü×.
+“
+java:S1160"xRefactor this method to throw at most one checked exception instead of: java.net.URISyntaxException, java.io.IOException(ã™Ì²8†ê¦Ü×.
+ª
+java:S1130"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(ÉÁÀ™üÿÿÿÿ8½Í¿Ü×.
+P
+java:S2039"5Explicitly declare the visibility for "httpResponse".(ÓÊ„’8É®¥Ü×.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(…¢üÔ8‘¢šİ×.
+V
+java:S2696"6Make the enclosing method "static" or remove this set.(–Şšııÿÿÿÿ8¢Á²İ×.
+X
+java:S2039"8Explicitly declare the visibility for "responseHandler".(¹íû³şÿÿÿÿ8©±ÆÜ×.
+_
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ù´ˆê8¾¿—Ü×.
+J
+java:S3740"/Provide the parametrized type for this generic.(¯Ü€Æ8§—¿Ü×.
+_
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(¥¹ï8½Í¿Ü×.
+U
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¯Ü€Æ
+P
+java:S1943"5Remove this use of constructor "Scanner(InputStream)"(¨Èñü8ˆ—©Ü×.
+_
+java:S1120"DMake this line start after 8 spaces to indent the code consistently.(äÔéË8ÄĞáİ×.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(…¢üÔ8ëƒ¼İ×.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ê›„©8àŸâİ×.
+U
+java:S1943"5Remove this use of constructor "Scanner(InputStream)"(¶Ü™ÿÿÿÿÿ8¶¥İ×.
+_
+java:S1120"DMake this line start after 8 spaces to indent the code consistently.(š¾ø8ú‡±Ü×.
+a
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8Ğ†İÜ×.
+O
+java:S1108"4Move this "finally" keyword to a new dedicated line.(Úîø›8â¡¸İ×.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ºı”ü8•ôäİ×.
+Y
+java:S1128">Remove this unused import 'org.apache.http.client.HttpClient'.(¨­—8¢‚ôÏ×.
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(ÑåÏ¡8ªŒ„İ×.
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Ÿúä™8ÄĞáİ×.
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Úîø›8²ßæÜ×.
+O
+java:S1108"4Move this "finally" keyword to a new dedicated line.(Úîø›8²ßæÜ×.

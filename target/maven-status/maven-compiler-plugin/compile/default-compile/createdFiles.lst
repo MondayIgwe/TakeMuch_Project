@@ -1,7 +1,8 @@
-environment\Properties_utiliy.class
 pages\LoginPage.class
 appium\AppiumFactory.class
 testBase\WebDriver_Factory.class
+environment\Properties_utiliy.class
+environment\Cucumber_Reporting.class
 commonLibs\HelperUtilities.class
 testBase\Hooks.class
 rest\RestFactory.class

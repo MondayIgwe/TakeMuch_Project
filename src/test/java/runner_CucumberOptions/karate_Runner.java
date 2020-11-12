@@ -5,6 +5,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(Karate.class)
 @KarateOptions(features = "classpath:features/karate_API_Features",
-            tags = {"@karateDebug","~@karateSanity"})
+            tags = "@karateDebug")
 public class karate_Runner {
 }

@@ -1,0 +1,38 @@
+
+S
+java:S2039"1Explicitly declare the visibility for "response".(ıÿ¶³ÿÿÿÿÿ8ÿ’´ùÚ.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(ÿ¿Á¶8ÿ’´ùÚ.
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ÿ’´ùÚ.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ôğ…°ÿÿÿÿÿ8ÿ’´ùÚ.
+I
+java:S1659"'Declare "response1" on a separate line.(ıÿ¶³ÿÿÿÿÿ8ÿ’´ùÚ.
+T
+java:S2039"2Explicitly declare the visibility for "response1".(ıÿ¶³ÿÿÿÿÿ8ÿ’´ùÚ.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ôğ…°ÿÿÿÿÿ8ÿ’´ùÚ.
+`
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(Ú­ä8ÿ’´ùÚ.
+u	java:S109O"TAssign this magic number 200 to a well-named constant, and use the constant instead.(ğ‚²Äşÿÿÿÿ8Äê´øÚ.
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(ØØèß8Ô“ÄùÚ.
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(´ÄÑ¯ÿÿÿÿÿ8ÿ’´ùÚ.
+f
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ıÿ¶³ÿÿÿÿÿ8ÿ’´ùÚ.
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(Ê×´Û8ÿ’´ùÚ.
+u	java:S109S"TAssign this magic number 200 to a well-named constant, and use the constant instead.(ÆÆÀƒøÿÿÿÿ8ÿ’´ùÚ.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ö±ôôúÿÿÿÿ8ÿ’´ùÚ.
+a
+java:S1120$"DMake this line start after 4 spaces to indent the code consistently.(™î†»8ÿ’´ùÚ.
+f
+java:S1120B"DMake this line start after 6 spaces to indent the code consistently.(´ÄÑ¯ÿÿÿÿÿ8ÿ’´ùÚ.
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(¶‰Õ—8ÿ’´ùÚ.
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ƒÿ¼È8ÿ’´ùÚ.
+X	java:S125J"<This block of commented-out lines of code should be removed.(Ÿÿœ8È‚ñùÚ.
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(ËªÈñıÿÿÿÿ8Üíî÷Ú.
+u	java:S109N"TAssign this magic number 200 to a well-named constant, and use the constant instead.(øØ§åıÿÿÿÿ8ÿ’´ùÚ.
+M
+java:S5960N"+Remove this assertion from production code.(øØ§åıÿÿÿÿ8´ëùÚ.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö±ôôúÿÿÿÿ8ÿ’´ùÚ.
+^
+java:S1106A"AMove this left curly brace to the beginning of next line of code.(¼¶×ñ8ÿ’´ùÚ.

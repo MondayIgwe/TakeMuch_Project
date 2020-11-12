@@ -1,0 +1,26 @@
+
+G
+java:S2333"%"final" is redundant in this context.(İØæüÿÿÿÿ8Ñİ÷Ú.
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ŠåŞ
+G
+java:S2333"%"final" is redundant in this context.(‘Üãºıÿÿÿÿ8Ñİ÷Ú.
+H
+java:S2333"&"public" is redundant in this context.(İØæüÿÿÿÿ8Ñİ÷Ú.
+C
+java:S2333"&"static" is redundant in this context.(Õóø¦8Ñİ÷Ú.
+H
+java:S2333"&"static" is redundant in this context.(‘Üãºıÿÿÿÿ8Ñİ÷Ú.
+C
+java:S2333"&"public" is redundant in this context.(Õóø¦8Ñİ÷Ú.
+H
+java:S2333"&"static" is redundant in this context.(İØæüÿÿÿÿ8Ñİ÷Ú.
+f	java:S114"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŠåŞ
+H
+java:S2333"&"public" is redundant in this context.(‘Üãºıÿÿÿÿ8Ñİ÷Ú.
+f
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(‘Üãºıÿÿÿÿ8‡Ê€ôÚ.
+`
+java:S1214"CMove constants defined in this interfaces to another class or enum.(ŠåŞ8‡Ê€ôÚ.
+B
+java:S2333"%"final" is redundant in this context.(Õóø¦8Ñİ÷Ú.

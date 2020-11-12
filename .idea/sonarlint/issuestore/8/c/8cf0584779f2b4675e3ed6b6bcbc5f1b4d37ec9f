@@ -1,0 +1,26 @@
+
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(œû¿Ø8“ñ†Û×.
+P
+java:S2039
+"3Explicitly declare the visibility for "properties".(®ï¬Ó8Î²ûÚ×.
+\
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8’•ƒÛ×.
+f
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(É¼ùÿÿÿÿ8Î²ûÚ×.
+l	java:S103"KSplit this 121 characters long line (which is greater than 120 authorized).(¨ôû©ûÿÿÿÿ8Õ€ŠÛ×.
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(•‰åÿ
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(È’ÀÒøÿÿÿÿ8Î²ûÚ×.
+a
+java:S1120
+"DMake this line start after 2 spaces to indent the code consistently.(®ï¬Ó8Î²ûÚ×.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÔÒÈøÿÿÿÿ8¡ƒ…Û×.
+7
+java:S2096"Remove this throws clause.(œû¿Ø8ƒˆÛ×.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(•‰åÿ
+o
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¨ôû©ûÿÿÿÿ8ÌñÛ×.
+f
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(¼Ç“úÿÿÿÿ8Ç‚ˆÛ×.

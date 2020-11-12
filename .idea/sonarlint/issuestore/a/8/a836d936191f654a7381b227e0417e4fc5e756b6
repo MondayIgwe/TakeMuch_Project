@@ -1,0 +1,52 @@
+
+^
+java:S1106!"AMove this left curly brace to the beginning of next line of code.(å¥‡8ß¡§­×.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(‰ô–úÿÿÿÿ8ß¡§­×.
+j
+java:S1132"MMove the "firefox" string literal on the left side of this string comparison.(ºå›Ï8ß¡§­×.
+N
+java:S1108"1Move this "else" keyword to a new dedicated line.(ºå›Ï8ß¡§­×.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ØªÒ†şÿÿÿÿ8¯øò¯×.
+t
+java:S1104"RMake driver a static final constant or non-public and provide accessors if needed.(ÔèË©úÿÿÿÿ8ê¬®×.
+S
+java:S2039"6Explicitly declare the visibility for "webDriverWait".(¥ºî“8ß¡§­×.
+^
+java:S1106
+"AMove this left curly brace to the beginning of next line of code.(öØšÇ8ß¡§­×.
+a
+java:S1120'"DMake this line start after 4 spaces to indent the code consistently.(½õ¤¬8”Èü¯×.
+f
+java:S1120""DMake this line start after 6 spaces to indent the code consistently.(æúªùÿÿÿÿ8ß¡§­×.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùı¾£8Ÿ‰­­×.
+a
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ÁÜÑ¥8­íó¯×.
+a
+java:S1120 "DMake this line start after 6 spaces to indent the code consistently.(Âéã±8ß¡§­×.
+Q
+java:S1128"4Remove this unused import 'cucumber.api.java.After'.(İ³À¶8ß¡§­×.
+f
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ÔèË©úÿÿÿÿ8ß¡§­×.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Äëœşÿÿÿÿ8ß¡§­×.
+n
+java:S1132"LMove the "chrome" string literal on the left side of this string comparison.(Äëœşÿÿÿÿ8ß¡§­×.
+N
+java:S1108!"1Move this "else" keyword to a new dedicated line.(å¥‡8ß¡§­×.
+R
+java:S2039"0Explicitly declare the visibility for "restAPI".(î’…ÿÿÿÿÿ8ß¡§­×.
+“
+java:S1130"qRemove the declaration of thrown exception 'org.openqa.selenium.WebDriverException' which is a runtime exception.(‰ô–úÿÿÿÿ8ß¡§­×.
+a
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(Î°¸ó8¢°×.
+c
+java:S1106&"AMove this left curly brace to the beginning of next line of code.(“œÈÇüÿÿÿÿ8”Èü¯×.
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ºå›Ï8ß¡§­×.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(æúªùÿÿÿÿ8ß¡§­×.
+i	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(öØšÇ8ÑĞ±­×.
+f
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(Äëœşÿÿÿÿ8¶ò€°×.

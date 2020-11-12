@@ -45,8 +45,6 @@ function fn() {
     config.anotherUrlBase = 'https://jsonplaceholder.typicode.com';
   } else if(env == 'qa'){
     config.anotherUrlBase1 =  'https://jsonplaceholder.typicode.com'
-  }else{
-  console.log("Invalid Environment")
   }
 
     // don't waste time waiting for a connection or if servers don't respond within 5 seconds

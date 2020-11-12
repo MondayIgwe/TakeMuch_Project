@@ -7,6 +7,8 @@
     <groupId>org.example</groupId>
     <artifactId>TakeMuch</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <!--Properties-->
     <properties>
         <cucumber.junit.version>1.2.5</cucumber.junit.version>
         <cucumber.version>1.2.5</cucumber.version>
@@ -16,8 +18,21 @@
         <appium.version>7.2.0</appium.version>
         <http.version>4.5.13</http.version>
         <karate.version>0.9.6</karate.version>
-
     </properties>
+
+    <!--Custom Repo-->
+    <repositories>
+    <repository>
+        <id>companyname.lib1</id>
+        <url>http://download.companyname.org/maven2/lib1</url>
+    </repository>
+    <repository>
+        <id>companyname.lib2</id>
+        <url>http://download.companyname.org/maven2/lib2</url>
+    </repository>
+    </repositories>
+
+<!--Build & Plugins-->
     <build>
         <testResources>
             <testResource>
@@ -71,10 +86,83 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.1</version>
+                <executions>
+                    <execution>
+                        <id>id.pre-clean</id>
+                        <phase>pre-clean</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <tasks>
+                                <echo>pre-clean phase</echo>
+                            </tasks>
+                        </configuration>
+                    </execution>
+
+                    <execution>
+                        <id>id.clean</id>
+                        <phase>clean</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <tasks>
+                                <echo>clean phase</echo>
+                            </tasks>
+                        </configuration>
+                    </execution>
+
+                    <execution>
+                        <id>id.post-clean</id>
+                        <phase>post-clean</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <tasks>
+                                <echo>post-clean phase</echo>
+                            </tasks>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
-
-
+    <profiles>
+        <profile>
+            <id>test</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-antrun-plugin</artifactId>
+                        <version>1.1</version>
+                        <executions>
+                            <execution>
+                                <phase>test</phase>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                                <configuration>
+                                    <tasks>
+                                        <echo>Using env.test.properties</echo>
+                                        <copy file="src/main/resources/env.test.properties"
+                                              tofile="${project.build.outputDirectory}
+                                 /env.properties"/>
+                                    </tasks>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
     <dependencies>
         <!--        <dependency>-->
         <!--            <groupId>io.cucumber</groupId>-->
@@ -97,6 +185,13 @@
         <!--            <artifactId>cucumber-html</artifactId>-->
         <!--            <version>0.2.7</version>-->
         <!--        </dependency>-->
+        <dependency>
+            <groupId>jxl</groupId>
+            <artifactId>jxl</artifactId>
+            <scope>system</scope>
+            <version>2.4.2</version>
+            <systemPath>${basedir}\lib\jxl-2.4.2.jar</systemPath>
+        </dependency>
         <dependency>
             <groupId>net.sourceforge.cobertura</groupId>
             <artifactId>cobertura</artifactId>
@@ -190,6 +285,22 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-path</artifactId>
+            <version>4.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>4.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>xml-path</artifactId>
+            <version>4.3.0</version>
+        </dependency>
+
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
@@ -254,6 +365,18 @@
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>
             <version>5.3.1</version>
+        </dependency>
+        <!--Groovy Scripting-->
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy</artifactId>
+            <version>3.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.3.0</version>
+            <scope>compile</scope>
         </dependency>
 
 

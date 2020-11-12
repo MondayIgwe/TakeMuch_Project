@@ -26,7 +26,7 @@ public class Junit_Runner4 {
     public void testParallel() {
         List<String> allTags = new ArrayList<>();
         allTags.add("@karateSanity");
-        allTags.add("@karateDebug");
+      //  allTags.add("@karateDebug");
 
         Results results = Runner.path("classpath:features/karate_API_Features")
                 .tags(allTags)
